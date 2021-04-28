@@ -3,6 +3,8 @@ package sample;
 import sample.model.Endereço;
 import sample.model.Pessoa;
 
+/** Class Main */
+
 public class Main {
 
     public static void main(String[] args) {

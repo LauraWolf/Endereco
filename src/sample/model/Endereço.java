@@ -1,5 +1,7 @@
 package sample.model;
 
+/** Classes */
+
 public class Endereço {
 
     private String rua;
@@ -7,6 +9,7 @@ public class Endereço {
     private int numero;
     private String cidade;
 
+    /** Getter e Setter */
 
     public void setRua(String rua) {
         this.rua = rua;
@@ -35,6 +38,7 @@ public class Endereço {
         return cidade;
     }
 
+    /** ToString */
 
     @Override
     public String toString() {
